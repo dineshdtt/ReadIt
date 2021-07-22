@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="toChangeScreen"
+    android:background="@color/transparent_black1">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-45dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginStart="-40dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/circle_pink" />
+
+    <ImageView
+        android:id="@+id/ivPink_line"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/line_pink" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ivPink_line"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="toChangeScreen"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/text1"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/tab1_b" />
+
+
+
+</RelativeLayout>

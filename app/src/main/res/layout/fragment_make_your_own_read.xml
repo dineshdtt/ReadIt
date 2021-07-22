@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    tools:context=".fragments.MakeYourOwnReadFragment">
+
+    <EditText
+        android:id="@+id/edMakeRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/ic_left_line"
+        android:hint="@string/str_start_typing_here"
+        android:inputType="textMultiLine"
+        android:maxLines="25"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:longClickable="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:textIsSelectable="true"
+        android:textColorHint="@color/black1"
+        android:textSize="15sp" />
+
+</RelativeLayout>

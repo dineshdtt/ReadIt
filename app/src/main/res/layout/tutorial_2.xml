@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black1"
+    android:onClick="toChangeScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/circle_pink" />
+
+    <ImageView
+        android:id="@+id/ivPink_line"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginStart="95dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/line_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_above="@id/ivPink_line"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:onClick="toChangeScreen"
+        android:text="@string/str_enjoy_listening_millions_of_free_ebooks_and_many_more"
+        android:textColor="@color/dark_pink_two"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginStart="115dp"
+        android:contentDescription="@string/str_logo_image"
+        android:src="@drawable/tab2_b" />
+
+
+</RelativeLayout>

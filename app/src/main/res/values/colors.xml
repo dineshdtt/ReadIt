@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bd3f32</color>
+    <color name="colorPrimaryDark">#4f002a</color>
+    <color name="colorAccent">#707070</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white1">#ccffffff</color>
+
+    <color name="black">#000000</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent1">#00000000</color>
+    <color name="transparent_white">#3cffffff</color>
+    <color name="transparent_black1">#dd000000</color>
+
+    <color name="light">#EDEDED</color>
+    <color name="light2">#E0E0E0</color>
+    <color name="light3">#f2f3f5</color>
+
+    <color name="grey">#C4C4C4</color>
+    <color name="warm_grey">#707070</color>
+    <color name="warm_grey1">#b5b5b5</color>
+    <color name="warm_grey2">#838383</color>
+    <color name="grey2">#FFE3E2E2</color>
+    <color name="grey5">#3d3b3b</color>
+    <color name="grey6">#e9ebee</color>
+
+    <color name="yellow1">#FFE3E67A</color>
+
+    <color name="black1">#66000000</color>
+    <color name="black6">#cc000000</color>
+
+    <color name="blue1">#5776cd</color>
+
+    <color name="ttsRed">#c03d43</color>
+    <color name="red1">#902c44</color>
+    <color name="red2">#e23c3a</color>
+
+    <color name="green1">#FF7EED75</color>
+
+    <color name="dark_pink_two">#cb356b</color>
+
+    <color name="shade2">#c13f3d</color>
+
+    <color name="shade4">#FFCB3C66</color>
+    <color name="shade7">#c0c0c0</color>
+    <color name="shade9">#FFD0D0D0</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/dark_pink_two" android:state_focused="true" />
+
+    <item android:color="@color/dark_pink_two" android:state_enabled="false" android:state_pressed="true" />
+
+    <item android:color="@color/dark_pink_two" android:state_checked="true" />
+
+    <item android:color="@color/black" android:state_enabled="false" />
+
+    <item android:color="@color/black" />
+</selector>

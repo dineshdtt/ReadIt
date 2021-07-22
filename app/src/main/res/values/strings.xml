@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">Read It</string>
+
+    <string name="str_title_settings">Settings</string>
+    <string name="str_title_help">Help</string>
+    <string name="str_title_make_your_own_read">Make Your Own Read</string>
+    <string name="str_title_browse_it">Browse It</string>
+    <string name="str_title_docs">Docs</string>
+    <string name="str_title_audio_settings">Audio Settings</string>
+    <string name="str_title_our_other_apps">Our Other App</string>
+    <string name="str_title_images">Images</string>
+    <string name="str_title_recent_voice">Recent Voice</string>
+
+    <string name="str_start_typing_here">Start typing here…</string>
+    <string name="str_send">Send</string>
+    <string name="str_camera">Camera</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_skip">Skip</string>
+    <string name="str_fb_data">218149285671521</string>
+    <string name="str_flurry_app">JVGXYTFK2PVNJ4RJBNVJ</string>
+    <string name="str_password">Password</string>
+    <string name="str_logo_image">logo image</string>
+    <string name="str_voice_selection">Voice Selection</string>
+    <string name="str_email_id">Email Id</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_sign_up">Sign Up</string>
+    <string name="str_or">or</string>
+    <string name="str_login_with_google">Login with Google</string>
+    <string name="str_login_with_facebook">Login with Facebook</string>
+    <string name="str_already_have_an_account">Already have an account? Login!</string>
+    <string name="str_login">Login</string>
+    <string name="str_british_accent">British Accent</string>
+    <string name="str_american_accent">American Accent</string>
+    <string name="str_content_image">content image</string>
+    <string name="str_new_here">New here? </string>
+    <string name="str_sign_in"> Sign In!</string>
+    <string name="str_faq">FAQ</string>
+    <string name="str_terms_and_privacy_policy">Terms and Privacy Policy</string>
+    <string name="str_app_info">App Info</string>
+    <string name="str_logout">Logout</string>
+    <string name="str_storage_usage">Storage Usage</string>
+    <string name="str_data_usage">Data Usage</string>
+    <string name="str_voice_speed">Voice Speed</string>
+    <string name="str_tamil">Tamil</string>
+    <string name="str_marathi">Marathi</string>
+    <string name="str_hindi">Hindi</string>
+    <string name="str_accent_selection">Accent selection</string>
+    <string name="str_english">English</string>
+    <string name="str_language_selection">Language Selection</string>
+    <string name="str_female_voice">Female Voice</string>
+    <string name="str_male_voice">Male Voice</string>
+    <string name="str_audio_settings">Audio Settings</string>
+    <string name="str_our_other_apps">Our Other Apps</string>
+    <string name="str_help">Help</string>
+    <string name="str_lbl_yes">Yes</string>
+    <string name="str_lbl_no">No</string>
+    <string name="str_lbl_exit_from_app">Do you want to close the app?</string>
+    <string name="str_enter_url_here">Enter URL here</string>
+    <string name="str_bookmarks">Bookmarks</string>
+    <string name="str_recent_search">Recent Search</string>
+    <string name="str_recent">Recent</string>
+    <string name="str_next">Next</string>
+    <string name="str_previous">Previous</string>
+    <string name="str_recent_audios">Recent Audios</string>
+    <string name="str_more_options">More Options</string>
+    <string name="str_copy">Copy</string>
+    <string name="str_reload">Reload</string>
+    <string name="str_lbl_logout_from_app">Do you want to Logout from App ?</string>
+    <string name="str_50mins">50 mins</string>
+    <string name="str_60">60%</string>
+    <string name="str_speak">Speak</string>
+    <string name="str_left">left</string>
+    <string name="str_right">right</string>
+    <string name="str_login_data">Login to get access to read \nmore than millions books</string>
+    <string name="str_pdf">pdf</string>
+    <string name="str_field_cant_be_empty">Field can\'t be empty</string>
+    <string name="str_error_valid_email">Please enter valid Email-Id</string>
+    <string name="str_error_minimum_8">Minimum 8 characters</string>
+    <string name="str_error_maximum_15">Maximum 15 Character</string>
+    <string name="str_error_pswd">Required at least 1 Uppercase letter, 1 Lowercase letter, 1 Number and 1 Special character</string>
+    <string name="str_forward">Forward</string>
+    <string name="str_bookmark">Bookmark</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_share">Share</string>
+    <string name="str_paste">Paste</string>
+    <string name="lbl_no_check_internet">No Internet Connection</string>
+    <string name="str_share_app">Share App</string>
+    <string name="str_give_feedback">Your Feedback</string>
+    <string name="lbl_username">We want to know what you thought of your experience at \n our App Read It so we\'d love to hear your feedback.</string>
+    <string name="lbl_email_id">Email-Id</string>
+    <string name="lbl_mobile_no">Mobile No.</string>
+    <string name="lbl_submit">Send Feedback</string>
+    <string name="str_rate_us">Rate Us</string>
+    <string name="str_error_valid_mobile">Invalid Mobile No</string>
+    <string name="str_play">play</string>
+    <string name="str_terms_n_condition">
+ReadIt
+        \n
+\nPrivacy Policy of ReadIt
+\n
+\nPrivacy Policy
+\nEffective date: July 23, 2018
+\n
+\nReadIt (\'us\', \'we\', or \'our\') operates the website and the ReadIt mobile application (the \'Service\').
+\n
+\nThis page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This Privacy Policy for ReadIt is powered by FreePrivacyPolicy.com.
+\n
+\nWe use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+\n
+\nInformation Collection And Use
+\nWe collect several different types of information for various purposes to provide and improve our Service to you.
+\n
+\nTypes of Data Collected
+\nPersonal Data
+\nWhile using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (\'Personal Data\'). Personally identifiable information may include, but is not limited to:
+\n
+\nEmail address
+\nCookies and Usage Data
+\nUsage Data
+\nWe may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (\'Usage Data\').
+\n
+\nThis Usage Data may include information such as your computer\'s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+\n
+\nWhen you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
+\n
+\nTracking &amp; Cookies Data
+\nWe use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
+\n
+\nCookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+\n
+\nYou can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+\n
+\nExamples of Cookies we use:
+\n
+\nSession Cookies. We use Session Cookies to operate our Service.
+\nPreference Cookies. We use Preference Cookies to remember your preferences and various settings.
+\nSecurity Cookies. We use Security Cookies for security purposes.
+\nUse of Data
+\nReadIt uses the collected data for various purposes:
+\n
+\nTo provide and maintain the Service
+\nTo notify you about changes to our Service
+\nTo allow you to participate in interactive features of our Service when you choose to do so
+\nTo provide customer care and support
+\nTo provide analysis or valuable information so that we can improve the Service
+\nTo monitor the usage of the Service
+\nTo detect, prevent and address technical issues
+\nTransfer Of Data
+\nYour information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+\n
+\nIf you are located outside India and choose to provide information to us, please note that we transfer the data, including Personal Data, to India and process it there.
+\n
+\nYour consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+\n
+\nReadIt will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+\n
+\nDisclosure Of Data
+\nLegal Requirements
+\nReadIt may disclose your Personal Data in the good faith belief that such action is necessary to:
+\n
+\nTo comply with a legal obligation
+\nTo protect and defend the rights or property of ReadIt
+\nTo prevent or investigate possible wrongdoing in connection with the Service
+\nTo protect the personal safety of users of the Service or the public
+\nTo protect against legal liability
+\nSecurity Of Data
+\nThe security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+\n
+\nService Providers
+\nWe may employ third party companies and individuals to facilitate our Service (\'Service Providers\'), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+\n
+\nThese third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+\n
+\nAnalytics
+\nWe may use third-party Service Providers to monitor and analyze the use of our Service.
+\n
+\nGoogle Analytics
+\n
+\nGoogle Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
+\n
+\nFor more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: https://policies.google.com/privacy?hl=en
+\n
+\nLinks To Other Sites
+\nOur Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.
+\n
+\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+\n
+\nChildren\'s Privacy
+\nOur Service does not address anyone under the age of 18 (\'Children\').
+\n
+\nWe do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+\n
+\nChanges To This Privacy Policy
+\nWe may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+\n
+\nWe will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the \'effective date\' at the top of this Privacy Policy.
+\n
+\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+\n
+\nContact Us
+\nIf you have any questions about this Privacy Policy, please contact us:
+\n
+\nBy email: readtts@gmail.com
+    </string>
+
+    <string name="str_faqs">
+       \n FAQ\'s
+    \n\n Q: Can I download eBooks on to my hand held device?
+\n\n
+\nA: In most cases, yes. This does depend on which operating system your hand held device is running however, as different eBook formats are compatible with different operating systems. For detailed information on which eBook formats are compatible with your hand held device, check our device guide.
+  \n\n
+\nQ: What are the benefits of reading ebooks?
+\n
+\nA: In most cases, ebooks are cheaper than paper books.
+Instantly available worldwide - just download the ebook instead of waiting for "snail mail" or local release.
+Full Text Search available - Search our entire database of ebooks for a specific phrase or keyword.
+Convenient - imagine loading several novels and a few magazines onto a portable reading device before you go on holiday.
+Quick to download - the average novel takes only 3-4 minutes.
+You can build a whole library of digital books.
+Users can do research and create or organize content.
+ebook reading software is free and easy to download from the internet.
+  \n\n
+\nQ: Can I download books I bought previously onto my iPhone, iPad or iPod Touch using your reader software?
+\n
+\nA: cYes, you can import or download all previously purchased books onto your apple device using Ebook Reader if the books are available in EPUB or PDF format and are DRM free.
+\n
+\n
+\n Q: Will I be able to view my eBooks offline using the Ebook Reader for iOS and Android?
+\n
+\nA: Yes. You just need to sync with your bookshelf and download the ebook the first time. Once the ebook is downloaded onto your device, you can read them offline anytime anywhere!
+
+
+
+
+    </string>
+    <string name="str_scan_device">Scan Device</string>
+    <string name="str_splash">splash</string>
+    <string name="str_enjoy_listening_millions_of_free_ebooks_and_many_more">Enjoy listening \n millions of free eBooks \nand many more</string>
+    <string name="str_name">Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_get_pdf">Get PDF</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_select_all">Select All</string>
+</resources>
+

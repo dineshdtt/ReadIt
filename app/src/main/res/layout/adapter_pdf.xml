@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLlPdfListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="05dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="05dp"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingEnd="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="10dp"
+            android:paddingStart="0dp"
+            android:singleLine="true"
+            android:textColor="@color/dark_pink_two"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/str_pdf"
+            android:src="@drawable/ic_pdf_1" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/iv_image"
+            android:layout_toStartOf="@id/tv_duration"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingEnd="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="10dp"
+            android:paddingStart="0dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_toEndOf="@+id/iv_image"
+            android:layout_toStartOf="@id/tv_duration"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingEnd="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="10dp"
+            android:paddingStart="0dp"
+            android:singleLine="true"
+            android:textColor="@color/dark_pink_two"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/grey" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabsHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:tabBackground="@color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#000"
+        app:tabTextColor="#000" />
+
+    <View
+        android:id="@+id/viewHome"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/tabsHome"
+        android:background="@drawable/shadow_bottom" />
+
+    <in.tts.utils.NonSwipeableViewPager
+        android:id="@+id/nonSwipeableViewPagerHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/viewHome" />
+
+</RelativeLayout>

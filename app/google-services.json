@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "282432496418",
+    "firebase_url": "https://readit-1530787572454.firebaseio.com",
+    "project_id": "readit-1530787572454",
+    "storage_bucket": "readit-1530787572454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282432496418:android:1d55839c957bb73b",
+        "android_client_info": {
+          "package_name": "in.tts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282432496418-g5k2dkm82dmngasesvg335uu72hdcgo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.tts",
+            "certificate_hash": "00df4521532399774f6909bc046b696e05d89217"
+          }
+        },
+        {
+          "client_id": "282432496418-59018qn6nos45p8od3d12brd2f6c3ani.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHa3kftYny0e7qy9jcGzsfLL35m5fiYsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282432496418-59018qn6nos45p8od3d12brd2f6c3ani.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282432496418-ak8rg2cknnis5r1hl7c1a2vamq4u5f16.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sample1.Text-To-Speech",
+                "app_store_id": "143"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

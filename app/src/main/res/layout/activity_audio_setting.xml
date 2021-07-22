@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".activities.AudioSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:padding="2dp"
+            android:text="@string/str_voice_selection"
+            android:textColor="@color/warm_grey"
+            android:textSize="15sp" />
+
+        <RadioGroup
+
+            android:id="@+id/rgVoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:button="@drawable/toggle"
+                android:checked="true"
+                android:text="@string/str_male_voice"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/toggle"
+                android:checked="false"
+                android:text="@string/str_female_voice"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/warm_grey1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/str_language_selection"
+            android:textColor="@color/warm_grey"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/rgLanguageSel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbEnglishLs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/toggle"
+                android:checked="true"
+                android:fontFamily="sans-serif"
+                android:text="@string/str_english"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/rlEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp">
+
+                <TextView
+                    android:id="@+id/tvAccentSel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="@string/str_accent_selection"
+                    android:textColor="@color/warm_grey"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/rgAccentSel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAccentSel"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rbAccentUS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:checked="true"
+                        android:text="@string/str_british_accent"
+                        android:textColor="@drawable/selector_textcolor_rb"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbAccentUK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:checked="false"
+                        android:text="@string/str_american_accent"
+                        android:textSize="12sp" />
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <RadioButton
+                android:id="@+id/rbHindiLs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/toggle"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/str_hindi"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rbMarathiLs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/toggle"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/str_marathi"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rbTamilLs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/toggle"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/str_tamil"
+                android:textColor="@drawable/selector_textcolor_rb"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/warm_grey1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="2dp"
+            android:text="@string/str_voice_speed"
+            android:textColor="@color/warm_grey"
+            android:textSize="15sp" />
+
+        <com.vsa.seekbarindicated.SeekBarIndicated
+            android:id="@+id/seek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:seekbar_max="3"
+            android:secondaryProgress="10"
+            android:progress="1"
+            app:seekbar_marginLeft="10dp"
+            app:seekbar_marginRight="10dp" />
+
+        <!--<SeekBar-->
+            <!--android:id="@+id/seek1"-->
+            <!--style="@style/Widget.AppCompat.SeekBar.Discrete"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:max="3"-->
+            <!--android:progress="1"-->
+            <!--android:progressTint="@color/dark_pink_two"-->
+            <!--android:secondaryProgress="10"-->
+            <!--android:thumbTint="@color/dark_pink_two"-->
+            <!--android:tickMark="@color/black"-->
+            <!--android:tickMarkTint="@color/dark_pink_two" />-->
+        <!---->
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

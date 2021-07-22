@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/str_give_feedback"
+            android:textColor="@color/ttsRed"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/lbl_username"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+
+        <EditText
+            android:id="@+id/edtCuUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/red_border"
+            android:fontFamily="sans-serif"
+            android:hint="@string/str_name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:labelFor="@id/edtCuUserEmail"
+            android:longClickable="false"
+            android:padding="10dp"
+            android:textColor="@color/ttsRed"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtCuUserNameError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/red2"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edtCuUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/red_border"
+            android:fontFamily="sans-serif"
+            android:gravity="start|center"
+            android:hint="@string/lbl_email_id"
+            android:imeOptions="actionNext|actionPrevious"
+            android:inputType="textEmailAddress|text"
+            android:longClickable="false"
+            android:padding="10dp"
+            android:textColor="@color/ttsRed"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtCuUserEmailError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="end|center"
+            android:textColor="@color/red2"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edtCuUserMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/red_border"
+            android:fontFamily="sans-serif"
+            android:hint="@string/lbl_mobile_no"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:longClickable="false"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="@color/ttsRed"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtCuUserMobileNumberError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/red2"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edtCuUserMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/red_border"
+            android:fontFamily="sans-serif"
+            android:hint="@string/str_give_feedback"
+            android:imeOptions="actionGo|actionDone"
+            android:inputType="text"
+            android:lines="5"
+            android:longClickable="false"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="@color/ttsRed"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtCuUserMessageError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/red2"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnCuSave"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ttsRed"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/lbl_submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</ScrollView>

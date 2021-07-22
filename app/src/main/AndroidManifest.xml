@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.tts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <!-- Permission required to draw floating widget over other apps -->
+    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> -->
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name=".model.ReadIt"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Meta Data -->
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/str_fb_data" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="752c9b164b8b11cb297caceb967a4009f7433ab0" />
+        <meta-data
+            android:name="pspdfkit_license_key"
+            android:value="YydfqYlnS6eoAcc4_UCuL55yUO-jl9CdAVHunX2E02O0F1G2mFUGh_n2K7iTmq4fp3GSqkKfpJsKD7nBEYSAMTIylBfFw0lwFDjzfvtAJMyL6ZLhXCKqtbWUVsW00-_p5bE7arUaZfVkc7-CraqEeAI29SZdrlxYnwHEoxZwJxdNRJ1EuBmxN9YR5m8NuQAkbGJdCfhP9aS8bkuEEp_mHT9rGnJDjiuV7WfhG5m2ZhfnFtPF2YvqHJJ0wDNq64KXsmhQWtmYC2pr7m1M61DxNcc7kV0FcNoj8MaefT0SD-MSL6QgZOulGusreWEWsmNXMB0vY7Er9Nr8nE1hXBZ74OFKCJyvb9T6EPselHVn7-6QgvUC6LbuLzaRfJXD4XqJ6V68tM9imjdDvwTJ0lqyTNR_56GM-vywobmbaXb4QHxtPYq1uJgBppTjDVupK3VN" />
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.TutorialPageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".activities.AudioSettingActivity"
+            android:label="@string/str_audio_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.SettingActivity"
+            android:label="@string/str_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.OurOtherAppActivity"
+            android:label="@string/str_our_other_apps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.HelpActivity"
+            android:label="@string/str_help"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activities.RecentVoiceActivity"
+            android:label="@string/str_title_recent_voice"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ImageOcrActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.BrowserActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.BookmarkActivity"
+            android:label="@string/str_bookmark"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.Contact_us"
+            android:label="@string/str_give_feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+
+        <service android:name=".services.MediaPlayerService" />
+        <!-- Services -->
+        <!-- <service -->
+        <!-- android:name=".services.ClipboardMonitorService" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="Clipboard Monitor" /> -->
+        <!-- <service android:name=".services.MusicService" /> -->
+        <activity
+            android:name=".activities.AudioPlayerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.PdfShowingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.CameraActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

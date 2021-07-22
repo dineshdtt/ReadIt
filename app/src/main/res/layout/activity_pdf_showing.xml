@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.PdfShowingActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="45dp" />
+
+    <LinearLayout
+        android:id="@+id/llPDFReader"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/ttsRed"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/reload"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_refresh"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/backward"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_backward"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/playPause"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_play"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="5dp" />
+
+        <ProgressBar
+            android:id="@+id/pbSpeak"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:theme="@style/AppTheme.WhiteAccent"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/forward"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_forward"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/close"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_close"
+            android:foreground="?attr/selectableItemBackground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCustom_loader120"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shadow">
+
+        <ImageView
+            android:id="@+id/ivCopy"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/str_logo_image"
+            android:src="@drawable/ic_copy" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/ivCopy"
+            android:background="@color/warm_grey1" />
+
+        <ImageView
+            android:id="@+id/ivPaste"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/view11"
+            android:contentDescription="@string/str_logo_image"
+            android:src="@drawable/ic_paste" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/ivPaste"
+            android:background="@color/warm_grey1" />
+
+        <ImageView
+            android:id="@+id/ivShare"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/view12"
+            android:contentDescription="@string/str_logo_image"
+            android:src="@drawable/ic_share" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/ivShare"
+            android:background="@color/warm_grey1" />
+
+        <ImageView
+            android:id="@+id/ivSpeak"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/view13"
+            android:background="@drawable/ic_speak"
+            android:contentDescription="@string/str_logo_image" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_border"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="2dp"
+        android:text="@string/str_copy"
+        android:textColor="@color/black6"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_paste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_border"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="2dp"
+        android:text="@string/str_paste"
+        android:textColor="@color/black6"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_border"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="2dp"
+        android:text="@string/str_share"
+        android:textColor="@color/black6"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_border"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="2dp"
+        android:text="@string/str_speak"
+        android:textColor="@color/black6"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
